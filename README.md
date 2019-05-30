@@ -1,4 +1,4 @@
-# step
+# Software Engineering (4830) Hello World Project
 
 A new Flutter project.
 
