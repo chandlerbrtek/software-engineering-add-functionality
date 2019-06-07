@@ -1,4 +1,4 @@
-# Software Engineering (4830) Hello World Project
+# Software Engineering (4830) Add Functionality
 
 A new Flutter project.
 
