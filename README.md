@@ -1,7 +1,5 @@
 # Software Engineering (4830) Add Functionality
 
-Our Hello World project had a lot of extra functionality
-
 ## Getting Started
 
 This project is a starting point for a Flutter application.
