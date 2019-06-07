@@ -1,6 +1,6 @@
 # Software Engineering (4830) Add Functionality
 
-A new Flutter project.
+Our Hello World project had a lot of extra functionality
 
 ## Getting Started
 
