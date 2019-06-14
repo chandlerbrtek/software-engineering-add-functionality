@@ -1,4 +1,4 @@
-# Software Engineering (4830) Add Functionality
+# Software Engineering (4830) Branching
 
 ## Getting Started
 
