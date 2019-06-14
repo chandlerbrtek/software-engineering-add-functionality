@@ -23,7 +23,7 @@ class RandomWordsState extends State<RandomWords> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Joey'),
+        title: Text('Hello World!'),
         actions: <Widget>[
           IconButton(icon: Icon(Icons.list), onPressed: _pushSaved),
         ],
@@ -60,6 +60,7 @@ class RandomWordsState extends State<RandomWords> {
   }
 
   Widget _buildSuggestions() {
+    _saved.add(new WordPair("Luke", "Moorhous"));
     return ListView.builder(
         padding: const EdgeInsets.all(16.0),
         itemBuilder: /*1*/ (context, i) {
