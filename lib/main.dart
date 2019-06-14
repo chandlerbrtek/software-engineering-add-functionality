@@ -62,6 +62,7 @@ class RandomWordsState extends State<RandomWords> {
   Widget _buildSuggestions() {
     _saved.add(new WordPair("Luke", "Moorhous"));
     _saved.add(new WordPair("Chandler", "Brtek"));
+    _saved.add(new WordPair("Joey", "Ralston"));
     return ListView.builder(
         padding: const EdgeInsets.all(16.0),
         itemBuilder: /*1*/ (context, i) {
