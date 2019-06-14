@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Startup Name Generator - Luke Moorhous',
+      title: 'Startup Name Generator',
       theme: ThemeData(primaryColor: Colors.white),
       home: RandomWords(),
     );
@@ -63,6 +63,7 @@ class RandomWordsState extends State<RandomWords> {
     _saved.add(new WordPair("Luke", "Moorhous"));
     _saved.add(new WordPair("Chandler", "Brtek"));
     _saved.add(new WordPair("Joey", "Ralston"));
+    _saved.add(new WordPair("Savon", "Phillips"));
     return ListView.builder(
         padding: const EdgeInsets.all(16.0),
         itemBuilder: /*1*/ (context, i) {
