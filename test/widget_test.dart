@@ -5,7 +5,6 @@
 // gestures. You can also use WidgetTester to find child widgets in the widget
 // tree, read text, and verify that the values of widget properties are correct.
 
-import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'package:step/main.dart';
@@ -16,9 +15,5 @@ void main() {
     await tester.pumpWidget(MyApp());
     
     expect(find.text('Hello World!'), findsOneWidget);
-    
-    // Verify menu flyout
-    await tester.tap(find.byIcon(Icons.list));
-    expect(find.text('Saved Suggestions'), findsOneWidget);
   });
 }
