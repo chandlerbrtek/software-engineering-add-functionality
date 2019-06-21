@@ -1,4 +1,4 @@
-# Software Engineering (4830) Branching
+# Software Engineering (4830) CI/CD
 
 ## Objective
 
